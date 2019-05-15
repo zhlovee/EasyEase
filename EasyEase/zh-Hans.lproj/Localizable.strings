@@ -5,3 +5,231 @@
   Created by lizhenghao on 2018/10/26.
   Copyright © 2018 lizhenghao. All rights reserved.
 */
+
+EE8Gua_111 = "乾";
+EE8Gua_010 = "坎";
+EE8Gua_100 = "艮";
+EE8Gua_001 = "震";
+EE8Gua_110 = "巽";
+EE8Gua_101 = "离";
+EE8Gua_000 = "坤";
+EE8Gua_011 = "兑";
+
+EE8Gong_111 = "乾宫";
+EE8Gong_010 = "坎宫";
+EE8Gong_100 = "艮宫";
+EE8Gong_001 = "震宫";
+EE8Gong_110 = "巽宫";
+EE8Gong_101 = "离宫";
+EE8Gong_000 = "坤宫";
+EE8Gong_011 = "兑宫";
+
+EE8Xiang_111 = "天";
+EE8Xiang_010 = "水";
+EE8Xiang_100 = "山";
+EE8Xiang_001 = "雷";
+EE8Xiang_110 = "风";
+EE8Xiang_101 = "火";
+EE8Xiang_000 = "地";
+EE8Xiang_011 = "泽";
+
+EE6Qin_0 = "官鬼";
+EE6Qin_1 = "父母";
+EE6Qin_2 = "兄弟";
+EE6Qin_3 = "子孙";
+EE6Qin_4 = "妻财";
+
+EE64Gua_111111 = "乾";
+EE64Gua_111110 = "姤";
+EE64Gua_111100 = "遁";
+EE64Gua_111000 = "否";
+EE64Gua_110000 = "观";
+EE64Gua_100000 = "剥";
+EE64Gua_101000 = "晋";
+EE64Gua_101111 = "大有";
+EE64Gua_001001 = "震";
+EE64Gua_001000 = "豫";
+EE64Gua_001010 = "解";
+EE64Gua_001110 = "恒";
+EE64Gua_000110 = "升";
+EE64Gua_010110 = "井";
+EE64Gua_011110 = "大过";
+EE64Gua_011001 = "随";
+EE64Gua_010010 = "坎";
+EE64Gua_010011 = "节";
+EE64Gua_010001 = "屯";
+EE64Gua_010101 = "既济";
+EE64Gua_011101 = "革";
+EE64Gua_001101 = "丰";
+EE64Gua_000101 = "明夷";
+EE64Gua_000010 = "师";
+EE64Gua_100100 = "艮";
+EE64Gua_100101 = "贲";
+EE64Gua_100111 = "大畜";
+EE64Gua_100011 = "损";
+EE64Gua_101011 = "睽";
+EE64Gua_111011 = "履";
+EE64Gua_110011 = "中孚";
+EE64Gua_110100 = "渐";
+EE64Gua_000000 = "坤";
+EE64Gua_000001 = "复";
+EE64Gua_000011 = "临";
+EE64Gua_000111 = "泰";
+EE64Gua_001111 = "大壮";
+EE64Gua_011111 = "夬";
+EE64Gua_010111 = "需";
+EE64Gua_010000 = "比";
+EE64Gua_110110 = "巽";
+EE64Gua_110111 = "小畜";
+EE64Gua_110101 = "家人";
+EE64Gua_110001 = "益";
+EE64Gua_111001 = "无妄";
+EE64Gua_101001 = "噬嗑";
+EE64Gua_100001 = "颐";
+EE64Gua_100110 = "蛊";
+EE64Gua_101101 = "离";
+EE64Gua_101100 = "旅";
+EE64Gua_101110 = "鼎";
+EE64Gua_101010 = "未济";
+EE64Gua_100010 = "蒙";
+EE64Gua_110010 = "涣";
+EE64Gua_111010 = "讼";
+EE64Gua_111101 = "同人";
+EE64Gua_011011 = "兑";
+EE64Gua_011010 = "困";
+EE64Gua_011000 = "萃";
+EE64Gua_011100 = "咸";
+EE64Gua_010100 = "蹇";
+EE64Gua_000100 = "谦";
+EE64Gua_001100 = "小过";
+EE64Gua_001011 = "归妹";
+
+EEJF16GuaBian_0 = "纯世";
+EEJF16GuaBian_1 = "一世";
+EEJF16GuaBian_2 = "二世";
+EEJF16GuaBian_3 = "三世";
+EEJF16GuaBian_4 = "四世";
+EEJF16GuaBian_5 = "五世";
+EEJF16GuaBian_6 = "游魂";
+EEJF16GuaBian_7 = "内戒";
+EEJF16GuaBian_8 = "外戒";
+EEJF16GuaBian_9 = "归魂";
+EEJF16GuaBian_10 = "绝命";
+EEJF16GuaBian_11 = "血脉";
+EEJF16GuaBian_12 = "肌肉";
+EEJF16GuaBian_13 = "骸骨";
+EEJF16GuaBian_14 = "棺椁";
+EEJF16GuaBian_15 = "冢墓";
+
+EE5Xing_0 = "金";
+EE5Xing_1 = "水";
+EE5Xing_2 = "木";
+EE5Xing_3 = "火";
+EE5Xing_4 = "土";
+
+EEWQS_0 = "旺";
+EEWQS_1 = "相";
+EEWQS_2 = "休";
+EEWQS_3 = "囚";
+EEWQS_4 = "死";
+
+EEWJS_0 = "建";
+EEWJS_1 = "相";
+EEWJS_2 = "休";
+EEWJS_3 = "囚";
+EEWJS_4 = "死";
+
+EE6Shen_0 = "青龙";
+EE6Shen_1 = "朱雀";
+EE6Shen_2 = "勾陈";
+EE6Shen_3 = "腾蛇";
+EE6Shen_4 = "白虎";
+EE6Shen_5 = "玄武";
+
+EE12DiZhi_0 = "子";
+EE12DiZhi_1 = "丑";
+EE12DiZhi_2 = "寅";
+EE12DiZhi_3 = "卯";
+EE12DiZhi_4 = "辰";
+EE12DiZhi_5 = "巳";
+EE12DiZhi_6 = "午";
+EE12DiZhi_7 = "未";
+EE12DiZhi_8 = "申";
+EE12DiZhi_9 = "酉";
+EE12DiZhi_10 = "戌";
+EE12DiZhi_11 = "亥";
+
+EE10TianGan_0 = "甲";
+EE10TianGan_1 = "乙";
+EE10TianGan_2 = "丙";
+EE10TianGan_3 = "丁";
+EE10TianGan_4 = "戊";
+EE10TianGan_5 = "己";
+EE10TianGan_6 = "庚";
+EE10TianGan_7 = "辛";
+EE10TianGan_8 = "壬";
+EE10TianGan_9 = "癸";
+
+EEOmen_0Shen = "忌神";
+EEOmen_1Shen = "原神";
+EEOmen_2Shen = "用神";
+EEOmen_3Shen = "子神";
+EEOmen_4Shen = "仇神";
+
+EESignPos_0 = "上爻";
+EESignPos_1 = "初爻";
+EESignPos_2 = "二爻";
+EESignPos_3 = "三爻";
+EESignPos_4 = "四爻";
+EESignPos_5 = "五爻";
+EESignPos_6 = "月";
+EESignPos_7 = "日";
+EESignPos_8 = "年";
+EESignPos_9 = "时";
+
+EE5X_SWMJ_0     = "长生";
+EE5X_SWMJ_1     = "沐浴";
+EE5X_SWMJ_2     = "冠带";
+EE5X_SWMJ_3     = "临官";
+EE5X_SWMJ_4     = "帝旺";
+EE5X_SWMJ_5     = "衰";
+EE5X_SWMJ_6     = "病";
+EE5X_SWMJ_7     = "死";
+EE5X_SWMJ_8     = "墓";
+EE5X_SWMJ_9     = "绝";
+EE5X_SWMJ_10    = "胎";
+EE5X_SWMJ_11    = "养";
+
+EE24JieQi_0 = "LiChun";
+EE24JieQi_1 = "ChunYu";
+EE24JieQi_2 = "JingZe";
+EE24JieQi_3 = "ChunFen";
+EE24JieQi_4 = "QingMing";
+EE24JieQi_5 = "GuYu";
+EE24JieQi_6 = "LiXia";
+EE24JieQi_7 = "XiaoMan";
+EE24JieQi_8 = "MangZhong";
+EE24JieQi_9 = "XiaZhi";
+EE24JieQi_10 = "XiaoShu";
+EE24JieQi_11 = "DaShu";
+EE24JieQi_12 = "LiQiu";
+EE24JieQi_13 = "ChuShu";
+EE24JieQi_14 = "BaiLu";
+EE24JieQi_15 = "QiuFen";
+EE24JieQi_16 = "HanLu";
+EE24JieQi_17 = "ShuangJiang";
+EE24JieQi_18 = "LiDong";
+EE24JieQi_19 = "XiaoXue";
+EE24JieQi_20 = "DaXue";
+EE24JieQi_21 = "DongZhi";
+EE24JieQi_22 = "XiaoHan";
+EE24JieQi_23 = "DaHan";
+
+
+
+
+EE2HeJuType_0   = "";
+EE2HeJuType_1   = "合起";
+EE2HeJuType_2   = "合住";
+EE2HeJuType_3   = "合好";
+EE2HeJuType_4   = "化伏";

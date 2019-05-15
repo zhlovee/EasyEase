@@ -1,0 +1,16 @@
+PODS:
+  - Masonry (8.11.0.2)
+
+DEPENDENCIES:
+  - Masonry (= 8.11.0.2)
+
+SPEC REPOS:
+  "ssh://git@gitlab.qiyi.domain:10022/mobile-ios/PodSpecs.git":
+    - Masonry
+
+SPEC CHECKSUMS:
+  Masonry: dd27dfa0c250d9a5f53786536cd31442cbebd310
+
+PODFILE CHECKSUM: 81d36452c610e900c25094c41e1cfb5cb33506b0
+
+COCOAPODS: 1.5.3
