@@ -1,0 +1,720 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		344E381E218451CF00E3E4A0 /* EE5Xing.m in Sources */ = {isa = PBXBuildFile; fileRef = 344E381D218451CF00E3E4A0 /* EE5Xing.m */; };
+		344E382221846BC200E3E4A0 /* EE12DiZhi.m in Sources */ = {isa = PBXBuildFile; fileRef = 344E382121846BC200E3E4A0 /* EE12DiZhi.m */; };
+		344E382621846DBC00E3E4A0 /* EE10TianGan.m in Sources */ = {isa = PBXBuildFile; fileRef = 344E382521846DBC00E3E4A0 /* EE10TianGan.m */; };
+		344E382D2184E01E00E3E4A0 /* EECalendar.m in Sources */ = {isa = PBXBuildFile; fileRef = 344E382C2184E01E00E3E4A0 /* EECalendar.m */; };
+		3450CA2721A9C86400DF7D9F /* EEShenSha.m in Sources */ = {isa = PBXBuildFile; fileRef = 3450CA2621A9C86300DF7D9F /* EEShenSha.m */; };
+		34570C3F21877BC4007763AA /* EEGenerater.m in Sources */ = {isa = PBXBuildFile; fileRef = 34570C3E21877BC4007763AA /* EEGenerater.m */; };
+		34570C4221877BEF007763AA /* EERandomGenerater.m in Sources */ = {isa = PBXBuildFile; fileRef = 34570C4121877BEF007763AA /* EERandomGenerater.m */; };
+		34570C482187814E007763AA /* EEOmenSign.m in Sources */ = {isa = PBXBuildFile; fileRef = 34570C472187814E007763AA /* EEOmenSign.m */; };
+		34DD61012182306F00707233 /* TodoList in Resources */ = {isa = PBXBuildFile; fileRef = 34DD61002182306F00707233 /* TodoList */; };
+		34FA8D29218EE4B10006A45B /* EEDzJuSign.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FA8D28218EE4B10006A45B /* EEDzJuSign.m */; };
+		34FA8D2F218F30040006A45B /* EESignPos.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FA8D2E218F30040006A45B /* EESignPos.m */; };
+		CF3FD8BB21905E6100AD639C /* EE5XingSign.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FD8BA21905E6100AD639C /* EE5XingSign.m */; };
+		CF6805BD2182D88800518641 /* EEYao.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6805BC2182D88800518641 /* EEYao.m */; };
+		CF6805C72182F2A600518641 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF6805C92182F2A600518641 /* Localizable.strings */; };
+		CF6F1CEB218B240C000BDA94 /* EETimeGenerater.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6F1CEA218B240C000BDA94 /* EETimeGenerater.m */; };
+		CF789A6721F8120800AB2DD1 /* UIView+EEUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CF789A6621F8120800AB2DD1 /* UIView+EEUIKit.m */; };
+		CF7F0FD7217F4C46007C96AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0FD6217F4C46007C96AB /* AppDelegate.m */; };
+		CF7F0FDD217F4C46007C96AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7F0FDB217F4C46007C96AB /* Main.storyboard */; };
+		CF7F0FDF217F4C48007C96AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF7F0FDE217F4C48007C96AB /* Assets.xcassets */; };
+		CF7F0FE2217F4C48007C96AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF7F0FE0217F4C48007C96AB /* LaunchScreen.storyboard */; };
+		CF7F0FE5217F4C48007C96AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0FE4217F4C48007C96AB /* main.m */; };
+		CF9BDE602201531200CADD8F /* EENavigationBar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF9BDE5D2201531200CADD8F /* EENavigationBar.xib */; };
+		CF9BDE612201531200CADD8F /* EENavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9BDE5F2201531200CADD8F /* EENavigationBar.m */; };
+		CF9BDE64220178A500CADD8F /* UIViewController+EESupport.m in Sources */ = {isa = PBXBuildFile; fileRef = CF9BDE63220178A500CADD8F /* UIViewController+EESupport.m */; };
+		CFB4336521B2841100B7BDC4 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4336421B2841100B7BDC4 /* NavigationViewController.m */; };
+		CFB4336921B289A000B7BDC4 /* EERootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4336721B289A000B7BDC4 /* EERootViewController.m */; };
+		CFB4336F21B28E1C00B7BDC4 /* EETabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4336C21B28E1C00B7BDC4 /* EETabbar.m */; };
+		CFB4337021B28E1C00B7BDC4 /* EETabbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB4336D21B28E1C00B7BDC4 /* EETabbar.xib */; };
+		CFB4DDED22005B6800579920 /* EEHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4DDEB22005B6800579920 /* EEHistoryViewController.m */; };
+		CFB4DDEE22005B6800579920 /* EEHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB4DDEC22005B6800579920 /* EEHistoryViewController.xib */; };
+		CFB4DDF322005BA600579920 /* EEOmenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4DDF122005BA600579920 /* EEOmenViewController.m */; };
+		CFB4DDF422005BA600579920 /* EEOmenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB4DDF222005BA600579920 /* EEOmenViewController.xib */; };
+		CFB4DDF922005BCE00579920 /* EEMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB4DDF722005BCE00579920 /* EEMineViewController.m */; };
+		CFB4DDFA22005BCE00579920 /* EEMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFB4DDF822005BCE00579920 /* EEMineViewController.xib */; };
+		CFCBAE20218054EF00EF2CD5 /* EETaiChi.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCBAE1F218054EF00EF2CD5 /* EETaiChi.m */; };
+		CFCBAE262180639B00EF2CD5 /* EE8Gua.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCBAE252180639B00EF2CD5 /* EE8Gua.m */; };
+		CFCBAE2F21806B0B00EF2CD5 /* EE64Gua.m in Sources */ = {isa = PBXBuildFile; fileRef = CFCBAE2E21806B0B00EF2CD5 /* EE64Gua.m */; };
+		F2A3C5567E2F550C78B7F324 /* libPods-EasyEase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25B77795683D02E3DB530BC8 /* libPods-EasyEase.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		24BB15BFB5949019F900517E /* Pods-EasyEase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEase.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyEase/Pods-EasyEase.debug.xcconfig"; sourceTree = "<group>"; };
+		25B77795683D02E3DB530BC8 /* libPods-EasyEase.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyEase.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		344E381C218451CF00E3E4A0 /* EE5Xing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EE5Xing.h; sourceTree = "<group>"; };
+		344E381D218451CF00E3E4A0 /* EE5Xing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EE5Xing.m; sourceTree = "<group>"; };
+		344E382021846BC200E3E4A0 /* EE12DiZhi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EE12DiZhi.h; sourceTree = "<group>"; };
+		344E382121846BC200E3E4A0 /* EE12DiZhi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EE12DiZhi.m; sourceTree = "<group>"; };
+		344E382421846DBC00E3E4A0 /* EE10TianGan.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EE10TianGan.h; sourceTree = "<group>"; };
+		344E382521846DBC00E3E4A0 /* EE10TianGan.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EE10TianGan.m; sourceTree = "<group>"; };
+		344E382B2184E01E00E3E4A0 /* EECalendar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EECalendar.h; sourceTree = "<group>"; };
+		344E382C2184E01E00E3E4A0 /* EECalendar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EECalendar.m; sourceTree = "<group>"; };
+		3450CA2521A9C86300DF7D9F /* EEShenSha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEShenSha.h; sourceTree = "<group>"; };
+		3450CA2621A9C86300DF7D9F /* EEShenSha.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEShenSha.m; sourceTree = "<group>"; };
+		34570C3D21877BC4007763AA /* EEGenerater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEGenerater.h; sourceTree = "<group>"; };
+		34570C3E21877BC4007763AA /* EEGenerater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEGenerater.m; sourceTree = "<group>"; };
+		34570C4021877BEF007763AA /* EERandomGenerater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EERandomGenerater.h; sourceTree = "<group>"; };
+		34570C4121877BEF007763AA /* EERandomGenerater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EERandomGenerater.m; sourceTree = "<group>"; };
+		34570C462187814E007763AA /* EEOmenSign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEOmenSign.h; sourceTree = "<group>"; };
+		34570C472187814E007763AA /* EEOmenSign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEOmenSign.m; sourceTree = "<group>"; };
+		34DD61002182306F00707233 /* TodoList */ = {isa = PBXFileReference; lastKnownFileType = text; path = TodoList; sourceTree = "<group>"; };
+		34FA8D27218EE4B10006A45B /* EEDzJuSign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEDzJuSign.h; sourceTree = "<group>"; };
+		34FA8D28218EE4B10006A45B /* EEDzJuSign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEDzJuSign.m; sourceTree = "<group>"; };
+		34FA8D2D218F30040006A45B /* EESignPos.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EESignPos.h; sourceTree = "<group>"; };
+		34FA8D2E218F30040006A45B /* EESignPos.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EESignPos.m; sourceTree = "<group>"; };
+		7CC61897DFEC3ACBD3593CB2 /* Pods-EasyEase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyEase.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyEase/Pods-EasyEase.release.xcconfig"; sourceTree = "<group>"; };
+		CF3FD8B921905E6100AD639C /* EE5XingSign.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EE5XingSign.h; sourceTree = "<group>"; };
+		CF3FD8BA21905E6100AD639C /* EE5XingSign.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EE5XingSign.m; sourceTree = "<group>"; };
+		CF6805BB2182D88800518641 /* EEYao.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEYao.h; sourceTree = "<group>"; };
+		CF6805BC2182D88800518641 /* EEYao.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEYao.m; sourceTree = "<group>"; };
+		CF6805C82182F2A600518641 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		CF6805CA2182F2DE00518641 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		CF6805CB2182F2DE00518641 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		CF6805CC2182F2DF00518641 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		CF6805D821832A1700518641 /* EasyEase.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyEase.pch; sourceTree = "<group>"; };
+		CF6F1CE9218B240C000BDA94 /* EETimeGenerater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EETimeGenerater.h; sourceTree = "<group>"; };
+		CF6F1CEA218B240C000BDA94 /* EETimeGenerater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EETimeGenerater.m; sourceTree = "<group>"; };
+		CF789A6521F8120800AB2DD1 /* UIView+EEUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+EEUIKit.h"; sourceTree = "<group>"; };
+		CF789A6621F8120800AB2DD1 /* UIView+EEUIKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+EEUIKit.m"; sourceTree = "<group>"; };
+		CF7F0FD2217F4C46007C96AB /* EasyEase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyEase.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7F0FD5217F4C46007C96AB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF7F0FD6217F4C46007C96AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF7F0FDC217F4C46007C96AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF7F0FDE217F4C48007C96AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF7F0FE1217F4C48007C96AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF7F0FE3217F4C48007C96AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF7F0FE4217F4C48007C96AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF9BDE5D2201531200CADD8F /* EENavigationBar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EENavigationBar.xib; sourceTree = "<group>"; };
+		CF9BDE5E2201531200CADD8F /* EENavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EENavigationBar.h; sourceTree = "<group>"; };
+		CF9BDE5F2201531200CADD8F /* EENavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EENavigationBar.m; sourceTree = "<group>"; };
+		CF9BDE62220178A500CADD8F /* UIViewController+EESupport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+EESupport.h"; sourceTree = "<group>"; };
+		CF9BDE63220178A500CADD8F /* UIViewController+EESupport.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+EESupport.m"; sourceTree = "<group>"; };
+		CFB4336321B2841100B7BDC4 /* NavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		CFB4336421B2841100B7BDC4 /* NavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		CFB4336621B289A000B7BDC4 /* EERootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EERootViewController.h; sourceTree = "<group>"; };
+		CFB4336721B289A000B7BDC4 /* EERootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EERootViewController.m; sourceTree = "<group>"; };
+		CFB4336C21B28E1C00B7BDC4 /* EETabbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EETabbar.m; sourceTree = "<group>"; };
+		CFB4336D21B28E1C00B7BDC4 /* EETabbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EETabbar.xib; sourceTree = "<group>"; };
+		CFB4336E21B28E1C00B7BDC4 /* EETabbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EETabbar.h; sourceTree = "<group>"; };
+		CFB4DDEA22005B6800579920 /* EEHistoryViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEHistoryViewController.h; sourceTree = "<group>"; };
+		CFB4DDEB22005B6800579920 /* EEHistoryViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEHistoryViewController.m; sourceTree = "<group>"; };
+		CFB4DDEC22005B6800579920 /* EEHistoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EEHistoryViewController.xib; sourceTree = "<group>"; };
+		CFB4DDF022005BA600579920 /* EEOmenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEOmenViewController.h; sourceTree = "<group>"; };
+		CFB4DDF122005BA600579920 /* EEOmenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEOmenViewController.m; sourceTree = "<group>"; };
+		CFB4DDF222005BA600579920 /* EEOmenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EEOmenViewController.xib; sourceTree = "<group>"; };
+		CFB4DDF622005BCE00579920 /* EEMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEMineViewController.h; sourceTree = "<group>"; };
+		CFB4DDF722005BCE00579920 /* EEMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEMineViewController.m; sourceTree = "<group>"; };
+		CFB4DDF822005BCE00579920 /* EEMineViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EEMineViewController.xib; sourceTree = "<group>"; };
+		CFCBAE1E218054EF00EF2CD5 /* EETaiChi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EETaiChi.h; sourceTree = "<group>"; };
+		CFCBAE1F218054EF00EF2CD5 /* EETaiChi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EETaiChi.m; sourceTree = "<group>"; };
+		CFCBAE242180639B00EF2CD5 /* EE8Gua.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EE8Gua.h; sourceTree = "<group>"; };
+		CFCBAE252180639B00EF2CD5 /* EE8Gua.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EE8Gua.m; sourceTree = "<group>"; };
+		CFCBAE2D21806B0B00EF2CD5 /* EE64Gua.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EE64Gua.h; sourceTree = "<group>"; };
+		CFCBAE2E21806B0B00EF2CD5 /* EE64Gua.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EE64Gua.m; sourceTree = "<group>"; };
+		CFFD95412180BDC100EF9DE6 /* EEDefine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEDefine.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7F0FCF217F4C46007C96AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F2A3C5567E2F550C78B7F324 /* libPods-EasyEase.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		344E381B218451B200E3E4A0 /* 5xing */ = {
+			isa = PBXGroup;
+			children = (
+				344E381C218451CF00E3E4A0 /* EE5Xing.h */,
+				344E381D218451CF00E3E4A0 /* EE5Xing.m */,
+			);
+			path = 5xing;
+			sourceTree = "<group>";
+		};
+		344E381F21846BA700E3E4A0 /* 12dizhi */ = {
+			isa = PBXGroup;
+			children = (
+				344E382021846BC200E3E4A0 /* EE12DiZhi.h */,
+				344E382121846BC200E3E4A0 /* EE12DiZhi.m */,
+			);
+			path = 12dizhi;
+			sourceTree = "<group>";
+		};
+		344E382321846DA500E3E4A0 /* 10tiangan */ = {
+			isa = PBXGroup;
+			children = (
+				344E382421846DBC00E3E4A0 /* EE10TianGan.h */,
+				344E382521846DBC00E3E4A0 /* EE10TianGan.m */,
+			);
+			path = 10tiangan;
+			sourceTree = "<group>";
+		};
+		344E38272184DC5100E3E4A0 /* LunarCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				344E382B2184E01E00E3E4A0 /* EECalendar.h */,
+				344E382C2184E01E00E3E4A0 /* EECalendar.m */,
+			);
+			path = LunarCalendar;
+			sourceTree = "<group>";
+		};
+		34570C3B21877B38007763AA /* Generate */ = {
+			isa = PBXGroup;
+			children = (
+				34570C3D21877BC4007763AA /* EEGenerater.h */,
+				34570C3E21877BC4007763AA /* EEGenerater.m */,
+				34570C4021877BEF007763AA /* EERandomGenerater.h */,
+				34570C4121877BEF007763AA /* EERandomGenerater.m */,
+				CF6F1CE9218B240C000BDA94 /* EETimeGenerater.h */,
+				CF6F1CEA218B240C000BDA94 /* EETimeGenerater.m */,
+			);
+			path = Generate;
+			sourceTree = "<group>";
+		};
+		34570C3C21877B69007763AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF9BDE5C220152E100CADD8F /* NavigationBar */,
+				CFB4DDE922005B4600579920 /* history */,
+				CFB4DDEF22005B8B00579920 /* omen */,
+				CFB4DDF522005BAB00579920 /* mine */,
+				CF789A6421F8118600AB2DD1 /* category */,
+				CFB4336B21B28E1C00B7BDC4 /* Tabbar */,
+				CFB4336221B2839F00B7BDC4 /* Entry */,
+				CFB4336621B289A000B7BDC4 /* EERootViewController.h */,
+				CFB4336721B289A000B7BDC4 /* EERootViewController.m */,
+			);
+			name = View;
+			path = EasyEase/View;
+			sourceTree = "<group>";
+		};
+		34FA8D26218EE38B0006A45B /* OmenSign */ = {
+			isa = PBXGroup;
+			children = (
+				34570C462187814E007763AA /* EEOmenSign.h */,
+				34570C472187814E007763AA /* EEOmenSign.m */,
+				34FA8D27218EE4B10006A45B /* EEDzJuSign.h */,
+				34FA8D28218EE4B10006A45B /* EEDzJuSign.m */,
+				34FA8D2D218F30040006A45B /* EESignPos.h */,
+				34FA8D2E218F30040006A45B /* EESignPos.m */,
+				CF3FD8B921905E6100AD639C /* EE5XingSign.h */,
+				CF3FD8BA21905E6100AD639C /* EE5XingSign.m */,
+				3450CA2521A9C86300DF7D9F /* EEShenSha.h */,
+				3450CA2621A9C86300DF7D9F /* EEShenSha.m */,
+			);
+			path = OmenSign;
+			sourceTree = "<group>";
+		};
+		95BD353DBAD8E554069B355A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24BB15BFB5949019F900517E /* Pods-EasyEase.debug.xcconfig */,
+				7CC61897DFEC3ACBD3593CB2 /* Pods-EasyEase.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A825872CA3D024AFB24CC6B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				25B77795683D02E3DB530BC8 /* libPods-EasyEase.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF789A6421F8118600AB2DD1 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				CF789A6521F8120800AB2DD1 /* UIView+EEUIKit.h */,
+				CF789A6621F8120800AB2DD1 /* UIView+EEUIKit.m */,
+				CF9BDE62220178A500CADD8F /* UIViewController+EESupport.h */,
+				CF9BDE63220178A500CADD8F /* UIViewController+EESupport.m */,
+			);
+			path = category;
+			sourceTree = "<group>";
+		};
+		CF7F0FC9217F4C45007C96AB = {
+			isa = PBXGroup;
+			children = (
+				CF6805D821832A1700518641 /* EasyEase.pch */,
+				34570C3C21877B69007763AA /* View */,
+				CF7F0FD4217F4C46007C96AB /* EasyEase */,
+				CF7F0FD3217F4C46007C96AB /* Products */,
+				95BD353DBAD8E554069B355A /* Pods */,
+				A825872CA3D024AFB24CC6B2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7F0FD3217F4C46007C96AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F0FD2217F4C46007C96AB /* EasyEase.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7F0FD4217F4C46007C96AB /* EasyEase */ = {
+			isa = PBXGroup;
+			children = (
+				34FA8D26218EE38B0006A45B /* OmenSign */,
+				CFBDD9012189BA28007A182D /* Prophecy */,
+				34570C3B21877B38007763AA /* Generate */,
+				CF7F0FEB217F4C96007C96AB /* Define */,
+				CF6805C92182F2A600518641 /* Localizable.strings */,
+				34DD61002182306F00707233 /* TodoList */,
+				CF7F0FD5217F4C46007C96AB /* AppDelegate.h */,
+				CF7F0FD6217F4C46007C96AB /* AppDelegate.m */,
+				CF7F0FDE217F4C48007C96AB /* Assets.xcassets */,
+				CF7F0FE0217F4C48007C96AB /* LaunchScreen.storyboard */,
+				CF7F0FE3217F4C48007C96AB /* Info.plist */,
+				CF7F0FE4217F4C48007C96AB /* main.m */,
+			);
+			path = EasyEase;
+			sourceTree = "<group>";
+		};
+		CF7F0FEB217F4C96007C96AB /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				344E38272184DC5100E3E4A0 /* LunarCalendar */,
+				344E382321846DA500E3E4A0 /* 10tiangan */,
+				344E381F21846BA700E3E4A0 /* 12dizhi */,
+				344E381B218451B200E3E4A0 /* 5xing */,
+				CFCBAE1E218054EF00EF2CD5 /* EETaiChi.h */,
+				CFCBAE1F218054EF00EF2CD5 /* EETaiChi.m */,
+				CF6805BB2182D88800518641 /* EEYao.h */,
+				CF6805BC2182D88800518641 /* EEYao.m */,
+				CFCBAE242180639B00EF2CD5 /* EE8Gua.h */,
+				CFCBAE252180639B00EF2CD5 /* EE8Gua.m */,
+				CFCBAE2D21806B0B00EF2CD5 /* EE64Gua.h */,
+				CFCBAE2E21806B0B00EF2CD5 /* EE64Gua.m */,
+				CFFD95412180BDC100EF9DE6 /* EEDefine.h */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		CF9BDE5C220152E100CADD8F /* NavigationBar */ = {
+			isa = PBXGroup;
+			children = (
+				CF9BDE5E2201531200CADD8F /* EENavigationBar.h */,
+				CF9BDE5F2201531200CADD8F /* EENavigationBar.m */,
+				CF9BDE5D2201531200CADD8F /* EENavigationBar.xib */,
+			);
+			path = NavigationBar;
+			sourceTree = "<group>";
+		};
+		CFB4336221B2839F00B7BDC4 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				CF7F0FDB217F4C46007C96AB /* Main.storyboard */,
+				CFB4336321B2841100B7BDC4 /* NavigationViewController.h */,
+				CFB4336421B2841100B7BDC4 /* NavigationViewController.m */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		CFB4336B21B28E1C00B7BDC4 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4336E21B28E1C00B7BDC4 /* EETabbar.h */,
+				CFB4336C21B28E1C00B7BDC4 /* EETabbar.m */,
+				CFB4336D21B28E1C00B7BDC4 /* EETabbar.xib */,
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		CFB4DDE922005B4600579920 /* history */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4DDEA22005B6800579920 /* EEHistoryViewController.h */,
+				CFB4DDEB22005B6800579920 /* EEHistoryViewController.m */,
+				CFB4DDEC22005B6800579920 /* EEHistoryViewController.xib */,
+			);
+			path = history;
+			sourceTree = "<group>";
+		};
+		CFB4DDEF22005B8B00579920 /* omen */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4DDF022005BA600579920 /* EEOmenViewController.h */,
+				CFB4DDF122005BA600579920 /* EEOmenViewController.m */,
+				CFB4DDF222005BA600579920 /* EEOmenViewController.xib */,
+			);
+			path = omen;
+			sourceTree = "<group>";
+		};
+		CFB4DDF522005BAB00579920 /* mine */ = {
+			isa = PBXGroup;
+			children = (
+				CFB4DDF622005BCE00579920 /* EEMineViewController.h */,
+				CFB4DDF722005BCE00579920 /* EEMineViewController.m */,
+				CFB4DDF822005BCE00579920 /* EEMineViewController.xib */,
+			);
+			path = mine;
+			sourceTree = "<group>";
+		};
+		CFBDD9012189BA28007A182D /* Prophecy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Prophecy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7F0FD1217F4C46007C96AB /* EasyEase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7F0FE8217F4C48007C96AB /* Build configuration list for PBXNativeTarget "EasyEase" */;
+			buildPhases = (
+				CD214AF02EFCB66F5B65A19C /* [CP] Check Pods Manifest.lock */,
+				CF7F0FCE217F4C46007C96AB /* Sources */,
+				CF7F0FCF217F4C46007C96AB /* Frameworks */,
+				CF7F0FD0217F4C46007C96AB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyEase;
+			productName = EasyEase;
+			productReference = CF7F0FD2217F4C46007C96AB /* EasyEase.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7F0FCA217F4C45007C96AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = lizhenghao;
+				TargetAttributes = {
+					CF7F0FD1217F4C46007C96AB = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = CF7F0FCD217F4C45007C96AB /* Build configuration list for PBXProject "EasyEase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = CF7F0FC9217F4C45007C96AB;
+			productRefGroup = CF7F0FD3217F4C46007C96AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7F0FD1217F4C46007C96AB /* EasyEase */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7F0FD0217F4C46007C96AB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB4DDEE22005B6800579920 /* EEHistoryViewController.xib in Resources */,
+				CFB4DDF422005BA600579920 /* EEOmenViewController.xib in Resources */,
+				CF6805C72182F2A600518641 /* Localizable.strings in Resources */,
+				CFB4337021B28E1C00B7BDC4 /* EETabbar.xib in Resources */,
+				CF7F0FE2217F4C48007C96AB /* LaunchScreen.storyboard in Resources */,
+				CF7F0FDF217F4C48007C96AB /* Assets.xcassets in Resources */,
+				34DD61012182306F00707233 /* TodoList in Resources */,
+				CFB4DDFA22005BCE00579920 /* EEMineViewController.xib in Resources */,
+				CF7F0FDD217F4C46007C96AB /* Main.storyboard in Resources */,
+				CF9BDE602201531200CADD8F /* EENavigationBar.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CD214AF02EFCB66F5B65A19C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyEase-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7F0FCE217F4C46007C96AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB4336521B2841100B7BDC4 /* NavigationViewController.m in Sources */,
+				CFCBAE20218054EF00EF2CD5 /* EETaiChi.m in Sources */,
+				3450CA2721A9C86400DF7D9F /* EEShenSha.m in Sources */,
+				344E381E218451CF00E3E4A0 /* EE5Xing.m in Sources */,
+				CFCBAE262180639B00EF2CD5 /* EE8Gua.m in Sources */,
+				CF9BDE612201531200CADD8F /* EENavigationBar.m in Sources */,
+				CF789A6721F8120800AB2DD1 /* UIView+EEUIKit.m in Sources */,
+				34570C3F21877BC4007763AA /* EEGenerater.m in Sources */,
+				CFB4DDED22005B6800579920 /* EEHistoryViewController.m in Sources */,
+				34570C4221877BEF007763AA /* EERandomGenerater.m in Sources */,
+				CFB4DDF322005BA600579920 /* EEOmenViewController.m in Sources */,
+				CFCBAE2F21806B0B00EF2CD5 /* EE64Gua.m in Sources */,
+				CFB4336921B289A000B7BDC4 /* EERootViewController.m in Sources */,
+				344E382221846BC200E3E4A0 /* EE12DiZhi.m in Sources */,
+				CF9BDE64220178A500CADD8F /* UIViewController+EESupport.m in Sources */,
+				344E382D2184E01E00E3E4A0 /* EECalendar.m in Sources */,
+				CF7F0FE5217F4C48007C96AB /* main.m in Sources */,
+				34FA8D2F218F30040006A45B /* EESignPos.m in Sources */,
+				344E382621846DBC00E3E4A0 /* EE10TianGan.m in Sources */,
+				CF7F0FD7217F4C46007C96AB /* AppDelegate.m in Sources */,
+				CFB4336F21B28E1C00B7BDC4 /* EETabbar.m in Sources */,
+				CF6805BD2182D88800518641 /* EEYao.m in Sources */,
+				CF3FD8BB21905E6100AD639C /* EE5XingSign.m in Sources */,
+				34570C482187814E007763AA /* EEOmenSign.m in Sources */,
+				CFB4DDF922005BCE00579920 /* EEMineViewController.m in Sources */,
+				CF6F1CEB218B240C000BDA94 /* EETimeGenerater.m in Sources */,
+				34FA8D29218EE4B10006A45B /* EEDzJuSign.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CF6805C92182F2A600518641 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF6805C82182F2A600518641 /* en */,
+				CF6805CC2182F2DF00518641 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		CF7F0FDB217F4C46007C96AB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7F0FDC217F4C46007C96AB /* Base */,
+				CF6805CA2182F2DE00518641 /* zh-Hans */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF7F0FE0217F4C48007C96AB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7F0FE1217F4C48007C96AB /* Base */,
+				CF6805CB2182F2DE00518641 /* zh-Hans */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7F0FE6217F4C48007C96AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF7F0FE7217F4C48007C96AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF7F0FE9217F4C48007C96AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24BB15BFB5949019F900517E /* Pods-EasyEase.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4U25E238F;
+				GCC_PREFIX_HEADER = "${SRCROOT}/EasyEase.pch";
+				INFOPLIST_FILE = EasyEase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzh.EasyEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		CF7F0FEA217F4C48007C96AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CC61897DFEC3ACBD3593CB2 /* Pods-EasyEase.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S4U25E238F;
+				GCC_PREFIX_HEADER = "${SRCROOT}/EasyEase.pch";
+				INFOPLIST_FILE = EasyEase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzh.EasyEase;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7F0FCD217F4C45007C96AB /* Build configuration list for PBXProject "EasyEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7F0FE6217F4C48007C96AB /* Debug */,
+				CF7F0FE7217F4C48007C96AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7F0FE8217F4C48007C96AB /* Build configuration list for PBXNativeTarget "EasyEase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7F0FE9217F4C48007C96AB /* Debug */,
+				CF7F0FEA217F4C48007C96AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7F0FCA217F4C45007C96AB /* Project object */;
+}

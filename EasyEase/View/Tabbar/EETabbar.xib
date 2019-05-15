@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="EETabbar">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z8y-aA-qnO">
+                    <rect key="frame" x="0.0" y="0.0" width="106.5" height="49"/>
+                    <state key="normal" title="List"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qFy-ge-jFl">
+                    <rect key="frame" x="106.5" y="0.0" width="107" height="49"/>
+                    <state key="normal" title="Ease"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VKh-lZ-MDf">
+                    <rect key="frame" x="213.5" y="0.0" width="106.5" height="49"/>
+                    <state key="normal" title="My"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="VKh-lZ-MDf" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="30x-Ba-iXY"/>
+                <constraint firstAttribute="bottom" secondItem="qFy-ge-jFl" secondAttribute="bottom" id="Jnz-4U-Wf0"/>
+                <constraint firstAttribute="trailing" secondItem="VKh-lZ-MDf" secondAttribute="trailing" id="MGw-Ho-kp2"/>
+                <constraint firstAttribute="bottom" secondItem="VKh-lZ-MDf" secondAttribute="bottom" id="P6l-l8-dMe"/>
+                <constraint firstItem="qFy-ge-jFl" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="RZw-Eq-7rj"/>
+                <constraint firstItem="qFy-ge-jFl" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Sf1-zh-zEl"/>
+                <constraint firstItem="Z8y-aA-qnO" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VFr-92-1Dp"/>
+                <constraint firstItem="Z8y-aA-qnO" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="cbe-27-7iO"/>
+                <constraint firstItem="Z8y-aA-qnO" firstAttribute="width" secondItem="qFy-ge-jFl" secondAttribute="width" id="f4b-F4-8fn"/>
+                <constraint firstItem="qFy-ge-jFl" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="0.333" id="h9K-Z3-U24"/>
+                <constraint firstAttribute="bottom" secondItem="Z8y-aA-qnO" secondAttribute="bottom" id="qyT-Bf-ziX"/>
+                <constraint firstItem="VKh-lZ-MDf" firstAttribute="width" secondItem="qFy-ge-jFl" secondAttribute="width" id="xG9-Ak-eaV"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="btnLeft" destination="Z8y-aA-qnO" id="WFJ-dv-eCX"/>
+                <outlet property="btnMid" destination="qFy-ge-jFl" id="Wdc-Yg-FEC"/>
+                <outlet property="btnRight" destination="VKh-lZ-MDf" id="AjL-ZY-L1m"/>
+            </connections>
+            <point key="canvasLocation" x="-2108" y="-767"/>
+        </view>
+    </objects>
+</document>
