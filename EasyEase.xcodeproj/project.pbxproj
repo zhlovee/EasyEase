@@ -21,6 +21,7 @@
 		CF3FD8BB21905E6100AD639C /* EE5XingSign.m in Sources */ = {isa = PBXBuildFile; fileRef = CF3FD8BA21905E6100AD639C /* EE5XingSign.m */; };
 		CF6805BD2182D88800518641 /* EEYao.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6805BC2182D88800518641 /* EEYao.m */; };
 		CF6805C72182F2A600518641 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF6805C92182F2A600518641 /* Localizable.strings */; };
+		CF6D516722F04644009C21CC /* EEWatchPeriod.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6D516622F04644009C21CC /* EEWatchPeriod.m */; };
 		CF6F1CEB218B240C000BDA94 /* EETimeGenerater.m in Sources */ = {isa = PBXBuildFile; fileRef = CF6F1CEA218B240C000BDA94 /* EETimeGenerater.m */; };
 		CF789A6721F8120800AB2DD1 /* UIView+EEUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CF789A6621F8120800AB2DD1 /* UIView+EEUIKit.m */; };
 		CF7F0FD7217F4C46007C96AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7F0FD6217F4C46007C96AB /* AppDelegate.m */; };
@@ -81,6 +82,8 @@
 		CF6805CB2182F2DE00518641 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		CF6805CC2182F2DF00518641 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		CF6805D821832A1700518641 /* EasyEase.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyEase.pch; sourceTree = "<group>"; };
+		CF6D516522F04644009C21CC /* EEWatchPeriod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EEWatchPeriod.h; sourceTree = "<group>"; };
+		CF6D516622F04644009C21CC /* EEWatchPeriod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EEWatchPeriod.m; sourceTree = "<group>"; };
 		CF6F1CE9218B240C000BDA94 /* EETimeGenerater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EETimeGenerater.h; sourceTree = "<group>"; };
 		CF6F1CEA218B240C000BDA94 /* EETimeGenerater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EETimeGenerater.m; sourceTree = "<group>"; };
 		CF789A6521F8120800AB2DD1 /* UIView+EEUIKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+EEUIKit.h"; sourceTree = "<group>"; };
@@ -235,6 +238,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		CF6D516422F0462B009C21CC /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				CF6D516522F04644009C21CC /* EEWatchPeriod.h */,
+				CF6D516622F04644009C21CC /* EEWatchPeriod.m */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		CF789A6421F8118600AB2DD1 /* category */ = {
 			isa = PBXGroup;
 			children = (
@@ -338,6 +350,7 @@
 		CFB4DDE922005B4600579920 /* history */ = {
 			isa = PBXGroup;
 			children = (
+				CF6D516422F0462B009C21CC /* New Group */,
 				CFB4DDEA22005B6800579920 /* EEHistoryViewController.h */,
 				CFB4DDEB22005B6800579920 /* EEHistoryViewController.m */,
 				CFB4DDEC22005B6800579920 /* EEHistoryViewController.xib */,
@@ -498,6 +511,7 @@
 				CF7F0FD7217F4C46007C96AB /* AppDelegate.m in Sources */,
 				CFB4336F21B28E1C00B7BDC4 /* EETabbar.m in Sources */,
 				CF6805BD2182D88800518641 /* EEYao.m in Sources */,
+				CF6D516722F04644009C21CC /* EEWatchPeriod.m in Sources */,
 				CF3FD8BB21905E6100AD639C /* EE5XingSign.m in Sources */,
 				34570C482187814E007763AA /* EEOmenSign.m in Sources */,
 				CFB4DDF922005BCE00579920 /* EEMineViewController.m in Sources */,

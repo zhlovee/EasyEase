@@ -52,13 +52,47 @@
     [_tab.btnLeft addTarget:self action:@selector(handleLeftTab:) forControlEvents:UIControlEventTouchUpInside];
     [_tab.btnMid addTarget:self action:@selector(handleMidTab:) forControlEvents:UIControlEventTouchUpInside];
     [_tab.btnRight addTarget:self action:@selector(handleRightTab:) forControlEvents:UIControlEventTouchUpInside];
-    [self switchTabBarViewControllerToVC:_omenVC];
+    [self switchTabBarViewControllerToVC:_historyVC];
     
 }
 
 -(void)viewDidAppear:(BOOL)animated
 {
     [super viewDidAppear:animated];
+    
+//    方法一：
+//    读取本机设置的语言列表，获取第一个语言，该方法读取的语言为：国际通用语言Code+国际通用国家地区代码，
+//    所以实际上想获取语言还需将国家地区代码剔除
+//    代码：
+    
+    
+    
+//    NSArray  *languageList =  [[NSUserDefaults standardUserDefaults] objectForKey:@"AppleLanguages"] ;// 本机设置的语言列表
+//    NSLog(@"languageList : %@", languageList);
+//    NSString *languageCode = [languageList  firstObject];// 当前设置的首选语言
+//    NSString *countryCode = [NSString stringWithFormat:@"-%@", [[NSLocale currentLocale] objectForKey:NSLocaleCountryCode]];
+//    NSLog(@"languageCode : %@",  [NSString stringWithFormat:@"%@%@",languageCode,countryCode]);
+    
+    
+    
+
+    NSString *languageCode = [NSLocale preferredLanguages][0];// 返回的也是国际通用语言Code+国际通用国家地区代码
+    NSString *countryCode = [NSString stringWithFormat:@"-%@", [[NSLocale currentLocale] objectForKey:NSLocaleCountryCode]];
+    if (languageCode) {
+        languageCode = [languageCode stringByReplacingOccurrencesOfString:countryCode withString:@""];
+    }
+    NSLog(@"languageCode : %@", languageCode);
+    
+//    日志：
+//    2018-02-09 10:45:01.959781+0800 Demo[9528:2408422] languageCode : zh-Hans
+//
+//    方法三：
+//    直接也最简单，但是在iOS11上有个Bug，即在iPhone->通用->语言与地区  添加了简体中文、English，并将中文设置默认语言的情况下，该函数返回的必定是英文。
+
+//    NSString *languageCode = [NSLocale  currentLocale].languageCode;// 当前设置的首选语言
+
+    
+    
 }
 
 -(void)switchTabBarViewControllerToVC:(UIViewController*)toVC

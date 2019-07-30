@@ -21,6 +21,8 @@
     EENavigationBar *bar = [[[EENavigationBar defaultNibView] setTransparentStyle] placeAtVC:self];
     bar.barItem.title = @"LIST";
     
+    
+    
 }
 
 /*
